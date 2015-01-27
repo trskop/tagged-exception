@@ -16,6 +16,8 @@ explicit and to enforce exception handling.
 Tagged Exceptions Core
 ======================
 
+Moved to a separate directory [tagged-exception-core][]
+
 [![Hackage](http://img.shields.io/hackage/v/tagged-exception-core.svg)][Hackage: tagged-exception-core]
 
 
@@ -32,6 +34,9 @@ Basic definitions with very stable API.
 [Haskell.org]:
   http://www.haskell.org
   "The Haskell Programming Language"
+[tagged-exception-core]:
+  https://github.com/trskop/tagged-exception-core
+  "tagged-exception-core Git repository on GitHub"
 [tl;dr Legal: BSD3]:
   https://tldrlegal.com/license/bsd-3-clause-license-%28revised%29
   "BSD 3-Clause License (Revised)"
