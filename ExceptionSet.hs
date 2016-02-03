@@ -37,9 +37,9 @@ type family Elem e set where
     Elem e (e ': s) = 'True
     Elem e (a ': s) = Elem e s
 
-type family Empty eSet where
-    Empty '[]      = 'True
-    Empty (a ': s) = 'False
+type family Null set where
+    Null '[]      = 'True
+    Null (a ': s) = 'False
 
 type family Remove e set where
     Remove e '[]      = '[]
